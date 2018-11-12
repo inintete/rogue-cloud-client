@@ -63,8 +63,8 @@ public class StartAgentServlet extends HttpServlet {
 	// Specify your username and password. These will be automatically registered when you first connect
 	// to the game server.
 	
-	public static final String USERNAME = "your-username";
-	public static final String PASSWORD = "your-password";
+	public static final String USERNAME = "admin";
+	public static final String PASSWORD = "changeme";
 	
 	private static RemoteClient constructMyAI() {
 		return new SimpleAI();
